@@ -15,15 +15,15 @@
         <form method="GET" action="results.html">
             <div>
                 <label for="firstname">Your First Name<span class="required-field">*</span></label>
-                <input type="text" id="firstname" name="firstname">
+                <input type="text" id="firstname" name="firstname" minlength="2" maxlength="35" required>
                 <label for="lastname">Your Last Name<span class="required-field">*</span></label>
-                <input type="text" id="lastname" name="lastname">
+                <input type="text" id="lastname" name="lastname" minlength="2" max="35" required>
             </div>
             <fieldset>
                 <legend>Your Contact Info</legend>
                 <div>
                     <label for="email">Your Email<span class="required-field">*</span></label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div>
                     <label for="address">Your Street Address</label>
